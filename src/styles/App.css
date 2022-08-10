@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 500px;
+}
+
+.todolist1 {
+    display: flex;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(85, 24, 227);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todolist2 {
+    display: flex;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(230, 212, 11);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todolist3 {
+    display: flex;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(12, 147, 12);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+}
+
+.cancel {
+    border: 0;
+    width: 70px;
+    height: 30px;
+    float: right;
+    background-color: red;
+}
+
+.addtodo {
+    border: 0;
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    background-color: blueviolet;
+}
