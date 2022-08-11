@@ -5,12 +5,10 @@ const TodoForm = ({create, closeMod}) => {
     const [item, setItem] = useState({title: '', deadline: '', stat: ''})
 
     const addNewItem = (e) => {
-        e.preventDefault()
-        const newItem = {
-            ...item, id: Date.now()
-        }
+        e.preventDefault();
+        const newItem = {...item, id: Date.now()}
         create(newItem)
-        setItem({title:'', deadline:'', stat: ''})
+        setItem({title:'', deadline:'', stat: ''});
     }
     const changeModal = (e) => {
         const newParam = {}

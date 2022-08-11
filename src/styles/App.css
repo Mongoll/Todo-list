@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #root {
@@ -65,4 +66,40 @@ select {
     height: 30px;
     float: right;
     background-color: blueviolet;
+}
+
+.todolist_todo {
+    width: 130px;
+    display: inline-block;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(85, 24, 227);
+    margin-top: 40px;
+    margin-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todolist_prog {
+    width: 130px;
+    display: inline-block;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(230, 212, 11);
+    margin-top: 40px;
+    margin-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todolist_done {
+    width: 130px;
+    display: inline-block;
+    background-color: rgb(216, 242, 242);
+    padding: 15px;
+    border-left: 15px solid rgb(12, 147, 12);
+    margin-top: 40px;
+    margin-right: 25px;
+    justify-content: space-between;
+    align-items: center;
 }
